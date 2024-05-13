@@ -240,7 +240,7 @@ function titolOfArray(films) {
   const titleOfMovies = films.map((movies) => movies.Title);
   return titleOfMovies;
 }
-const titleOfMovies = countMovies(movies);
+const titleOfMovies = titolOfArray(movies);
 console.log("Titoli dei film:", titleOfMovies);
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
